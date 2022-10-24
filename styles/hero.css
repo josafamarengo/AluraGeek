@@ -1,0 +1,68 @@
+.hero {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url("../assets/img/banner-image.png") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    color: white;
+
+    position: absolute;
+    left: 0;
+
+    width: 100vw;
+    height: 352px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.hero__group {
+    width: min(100%, 1000px);
+    margin: 0 auto;
+
+    padding: 32px;
+    gap: 16px;
+}
+
+.hero__title {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(1.5rem, 6vw, 3.5rem);
+    line-height: 61px;
+    letter-spacing: 0.01em;
+}
+
+.hero__subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    line-height: 26px;
+    letter-spacing: 0.01em;
+}
+
+.hero__button {
+    width: 9rem;
+    height: 40px;
+
+    margin-top: 16px;
+
+    background: #2A7AE4;
+    color: white;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+}
