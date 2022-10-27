@@ -1,0 +1,47 @@
+.products {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 352px;
+    padding: 0 20px;
+}
+
+.products__title {
+    font-family: var(--font-family);
+    font-size: var(--font-step-0);
+    font-weight: 700;
+
+    margin-top: 3rem;
+}
+
+.products__row {
+    display: flex;
+    justify-content: space-between;   
+
+    margin-top: 1rem;
+}
+
+.products__card {
+    height: 220px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.products__card--title {
+    font-family: var(--font-family);
+    font-size: var(--font-step--0);
+}
+
+.products__card--price {
+    font-family: monospace;
+    font-size: var(--font-step--1);
+    font-weight: 700;
+}
+
+.products__card--link {
+    font-family: var(--font-family);
+    font-size: var(--font-step--1);
+    color: var(--primary);
+}

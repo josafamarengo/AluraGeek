@@ -1,5 +1,5 @@
 .hero {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url("../assets/img/banner-image.png") no-repeat center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url("../../assets/img/banner-image.png") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -30,7 +30,8 @@
     width: min(100%, 1000px);
     margin: 0 auto;
 
-    padding: 32px;
+    padding-bottom: 32px;
+    padding-left: 12px;
     gap: 16px;
 }
 
@@ -58,7 +59,7 @@
 
     margin-top: 16px;
 
-    background: #2A7AE4;
+    background: var(--primary);
     color: white;
 
     font-family: 'Raleway', sans-serif;
